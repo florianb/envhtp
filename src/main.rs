@@ -24,7 +24,7 @@ fn main() -> Result<()> {
     let pattern_length = args.pattern.len();
 
     let mut account_entries = Vec::new();
-    let mut result;
+    let result;
 
     for (key, value) in env::vars() {
         let lowered_key = key.to_lowercase();
