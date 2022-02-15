@@ -4,7 +4,7 @@ use std::io::{Result, Write};
 use bcrypt;
 use clap::Parser;
 
-/// Program to generate a base64 encoded htpasswd file from the environment variables
+/// Program to generate a base64 encoded htpasswd file from the environment variables.
 #[derive(Parser)]
 #[clap(author, version, about, long_about = None)]
 struct Args {
@@ -13,7 +13,7 @@ struct Args {
     #[clap(short, long, default_value = "user_")]
     pattern: String,
 
-    /// Do not encode htpasswd with Base64
+    /// Do not encode htpasswd with Base64.
     #[clap(short, long)]
     no_base64: bool,
 }

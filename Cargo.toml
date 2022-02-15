@@ -4,7 +4,7 @@ version = "1.0.0"
 edition = "2021"
 authors = ["Florian Neumann <florian.neumann@mindkeeper.solutions>"]
 license = "MIT"
-description = "Command line tool to convert env variables beginning with user to a htpasswd file."
+description = "Command line tool to convert env variables beginning with 'user_' to a htpasswd file."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
